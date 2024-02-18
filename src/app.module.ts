@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
+import { TeamsModule } from './teams/teams.module';
 
 @Module({
-  imports: [],
+  imports: [TeamsModule],
 })
 export class AppModule {}
